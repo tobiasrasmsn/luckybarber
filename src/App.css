@@ -1,0 +1,33 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+html.has-scroll-smooth {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-background dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-secondary dark;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
