@@ -1,4 +1,3 @@
-import React from "react";
 import barber1 from "../../assets/images/barber1.webp";
 import barber2 from "../../assets/images/barber2.webp";
 import barber3 from "../../assets/images/barber3.webp";
