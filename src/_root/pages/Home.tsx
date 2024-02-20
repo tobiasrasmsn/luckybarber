@@ -15,12 +15,12 @@ const Home = () => {
                 <img
                     src={barbershop_compact}
                     alt="Lucky Barber fra innsiden"
-                    className="md:hidden block rounded-2xl w-[100%]"
+                    className="md:hidden block rounded-md w-[100%]"
                 />
                 <img
                     src={barbershop_long}
                     alt="Lucky Barber fra innsiden"
-                    className="md:block hidden rounded-2xl w-[100%] mt-14"
+                    className="md:block hidden rounded-md w-[100%] mt-14"
                 />
             </div>
 

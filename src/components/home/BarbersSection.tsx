@@ -14,12 +14,12 @@ const BarbersSection = () => {
                     <img
                         src={barber2_landscape}
                         alt="Janas"
-                        className="w-[100%] rounded-2xl lg:hidden block"
+                        className="w-[100%] rounded-md lg:hidden block"
                     />
                     <img
                         src={barber2}
                         alt="Janas"
-                        className="w-[100%] rounded-2xl lg:block hidden"
+                        className="w-[100%] rounded-md lg:block hidden"
                     />
                     <div className="flex flex-row justify-between items-center w-100% mt-4">
                         <h3 className="text-2xl">Janas</h3>
@@ -33,12 +33,12 @@ const BarbersSection = () => {
                     <img
                         src={barber1_landscape}
                         alt="Karolina"
-                        className="w-[100%] rounded-2xl lg:hidden block"
+                        className="w-[100%] rounded-md lg:hidden block"
                     />
                     <img
                         src={barber1}
                         alt="Karolina"
-                        className="w-[100%] rounded-2xl lg:block hidden"
+                        className="w-[100%] rounded-md lg:block hidden"
                     />
                     <div className="flex flex-row justify-between items-center w-100% mt-4">
                         <h3 className="text-2xl">Karolina</h3>
@@ -52,12 +52,12 @@ const BarbersSection = () => {
                     <img
                         src={barber3_landscape}
                         alt="Henrik"
-                        className="w-[100%] rounded-2xl lg:hidden block"
+                        className="w-[100%] rounded-md lg:hidden block"
                     />
                     <img
                         src={barber3}
                         alt="Henrik"
-                        className="w-[100%] rounded-2xl lg:block hidden"
+                        className="w-[100%] rounded-md lg:block hidden"
                     />
                     <div className="flex flex-row justify-between items-center w-100% mt-4">
                         <h3 className="text-2xl">Henrik</h3>

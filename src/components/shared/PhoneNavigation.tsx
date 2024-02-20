@@ -34,7 +34,7 @@ const PhoneNavigation = () => {
     }, []);
     return (
         <header
-            className={`fixed flex md:hidden w-screen px-[3vw] h-[80px] top-[98svh] -translate-y-full z-10 justify-center ${
+            className={`fixed flex md:hidden w-screen px-[6vw] h-[80px] top-[98svh] -translate-y-full z-10 justify-center ${
                 isVisible ? "opacity-100" : "opacity-0 pointer-events-none "
             }`}
         >

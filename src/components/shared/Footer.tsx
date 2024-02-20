@@ -1,11 +1,11 @@
 import logo from "../../assets/logo.webp";
 const Footer = () => {
     return (
-        <footer className="mt-20 mb-8 mx-8 md:mx-[7vw] flex flex-col md:flex-row justify-between items-center md:items-center">
+        <footer className="mt-20 pb-[100px] mx-8 md:mx-[7vw] flex flex-col md:flex-row justify-between items-center md:items-center">
             <img
                 src={logo}
                 alt="footer logo"
-                className="mb-4 md:mb-0 w-[15vw]"
+                className="mb-4 md:mb-0 w-[50%] md:w-[15vw]"
             />
             <div className="flex flex-col md:flex-row gap-20">
                 <ul className="flex flex-col">

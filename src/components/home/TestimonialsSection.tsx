@@ -16,19 +16,19 @@ const TestimonialsSection = () => {
     const instructionText = detectDeviceType();
     return (
         <div className="mx-8 md:mx-[7vw] mt-20">
-            <div className="h-[100%] bg-secondary mt-14 pb-8 rounded-2xl">
+            <div className="h-[100%] bg-secondary mt-14 pb-8 rounded-md">
                 <div>
                     <ScrollingText
                         text=" Stol på resultat ~ Stol på resultat ~ "
                         speed={45}
                     />
                 </div>
-                <div className="px-5 my-6 ">
+                <div className="px-5 my-6">
                     <Carousel className="cursor-grab">
                         <CarouselContent>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-[370px]">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut})`,
                                     }}
@@ -41,7 +41,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut2})`,
                                     }}
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut3})`,
                                     }}
@@ -69,7 +69,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut})`,
                                     }}
@@ -83,7 +83,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut})`,
                                     }}
@@ -97,7 +97,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut})`,
                                     }}
@@ -111,7 +111,7 @@ const TestimonialsSection = () => {
                             </CarouselItem>
                             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                                 <div
-                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-xl p-5 flex justify-between flex-col"
+                                    className="bg-red-100 h-[100%] w-[100%] bg-cover rounded-md p-5 flex justify-between flex-col"
                                     style={{
                                         backgroundImage: `url(${freshCut})`,
                                     }}

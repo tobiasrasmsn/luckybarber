@@ -28,7 +28,7 @@ const AboutSection = () => {
                     </Button>
                 </div>
             </div>
-            <div className="bg-barberer bg-cover w-[35%] lgplus:w-[50%] h-[500px] rounded-2xl hidden lg:block" />
+            <div className="bg-barberer bg-cover w-[35%] lgplus:w-[50%] h-[500px] rounded-md hidden lg:block" />
         </section>
     );
 };
